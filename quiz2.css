@@ -1,0 +1,98 @@
+body { font-family: sans-serif; 
+    background: url(fotos/fundo.quiz.jpeg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+     }
+     main {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+   .fotos div img{ 
+        width: 15rem; 
+        height: 8rem; 
+        gap: 2rem;
+         margin: 0.5rem;} 
+         .fotos {
+            justify-content: center;
+         }
+#diva h1{ 
+    font-size: 1.5rem; 
+ text-align: center; 
+ font-weight: bold;
+}
+
+ #botao button{ 
+    text-decoration: none; 
+    border-radius: 2rem; 
+    height: 2rem;
+     width: 10rem; 
+    font-size: 1rem;
+     cursor: pointer;
+     transition: background-color 0.3s ease; 
+    }
+
+     #botao button a{ 
+        text-decoration: none;
+         color: #1A2142; 
+         font-weight: bold; }
+         #botao button:hover{
+             background-color: #a1dfe5; 
+        }
+        #diva button{ 
+    text-decoration: none; 
+    border-radius: 2rem; 
+    height: 2rem;
+     width: 10rem; 
+    font-size: 1rem;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+    margin: 0.5rem; }
+
+     #diva button a{ 
+    
+        text-decoration: none;
+         color: #1A2142; 
+         font-weight: bold; }
+         #diva button:hover
+          {
+             background-color: #23cddc; 
+        }
+        #nav{
+    background-color: #1A2142;
+   height: 60px;
+   width: 100%;
+   margin: 0px;
+    padding: 0px;
+     gap: 34px;
+    display: flex;
+    align-items: center;
+justify-content: flex-end;}
+        
+    #nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 12px;
+    
+    }
+    #nav a:hover{
+         transform: scale(1.1) ;
+  transition: all 0.3s ease-in-out;
+  color: #1e5e63;
+    }
+   #botao {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+}

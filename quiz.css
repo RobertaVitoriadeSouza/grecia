@@ -1,0 +1,54 @@
+body { font-family: sans-serif; 
+    background: url(fotos/fundo.quiz.jpeg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+     }
+     #nav{
+    background-color: #1A2142;
+   height: 60px;
+   width: 100%;
+   margin: 0px;
+    padding: 0px;
+     gap: 34px;
+    display: flex;
+    align-items: center;
+justify-content: flex-end;}
+        
+    #nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 12px;
+    
+    }
+    #nav a:hover{
+         transform: scale(1.1) ;
+  transition: all 0.3s ease-in-out;
+  color: #1e5e63;
+    }
+
+    #inicio button{
+        border-radius: 2rem;
+        height: 5rem;
+        width: 20rem;}
+
+     #inicio button a{
+         text-decoration: none;
+         color: #1A2142;
+         font-size: 2rem;
+         font-weight: bold; }
+     main {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#inicio {
+  width: 100%;
+  min-height: calc(100vh - 60px); /* marcio ocupa a altura da tela inteira */
+  align-items: center;      
+  justify-content: center;  
+  text-align: center;
+  padding: 40px 20px;       
+}
