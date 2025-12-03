@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+}
+
+#nav {
+    background-color: #1A2142;
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    gap: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: static;
+}
+
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 12px;
+
+}
+
+#nav a:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    color: #1e5e63;
+}
+
+header h1 {
+    font-size: 100px;
+    color:white;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-shadow:
+        0 0 40px rgb(0, 0, 0),
+        
+        0 0 80px rgba(0, 0, 0, 0),
+        0 0 120px rgba(0, 0, 0, 0);
+    margin: 40px;
+}
+
+header {
+
+    background-image: url(fotos/Lo\ que\ la\ economía\ esconde\ »\ Un\ mundo\ complejo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4px;
+    height: 600px;
+}
+
+header h2 {
+    font-size: 30px;
+    color:white;
+    align-items: flex-end;
+    text-shadow:
+        0 0 40px rgb(0, 0, 0),
+        0 0 80px rgba(0, 0, 0, 0),
+        0 0 120px rgba(0, 0, 0, 0);
+    padding: 6rem;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    align-items: center;
+}
+
+#formacao,
+#setor,
+#recuperação,
+#Fatos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1100px;
+}
+
+#conteudo img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.texto1,
+.texto2,
+.texto3,
+.texto4 {
+    flex: 1;
+    /*  Marcio para eu nao me perder este elemento faz o texto ocupar o espaço que sobrar */
+    text-align: justify;
+
+}
+
+#formacao,
+#setor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+#recuperação,
+#Fatos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+}
+
+#lista ul {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#lista h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#lista {
+    background-color: #1A2142;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    margin: 0% auto;
+}
+
+#final {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#final img {
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+}
