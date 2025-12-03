@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  background: url(fotos/imagem\ fundo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  justify-content: center; 
+  align-items: center;    
+  display: flex;
+    height: 45rem;
+}
+
+
+.email,.senha {
+    position: relative; 
+    margin-bottom: 20px; 
+    
+}
+.email label,.senha label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  color: black;
+  font-size: 1.1rem;
+}
+.email input, .senha input {
+   padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 30px;     
+    color: #333; }
+    
+    #roberta{
+        background-color:#1A2142;
+        border-radius: 2rem;
+  height: 30rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+    }
+    #login{
+        justify-content: center;
+        align-items: center;
+       text-align: center;
+       width: 100%;
+    }
+
+#login button{
+    text-decoration: none;
+ width: 120px;
+  color:#1A2142 ;
+  height: 40px;
+  margin: 10px ;  
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}    
+#login button a {
+  text-decoration: none; 
+  color: inherit;        
+  font-weight: bold;
+}
+#login button:hover {
+  background-color: #1e5e63;
+  color: white;
+}   
+header h2 a {
+    color: 	#ADD8E6;
+    font-size: 1rem;
+}

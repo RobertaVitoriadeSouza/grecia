@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  background: url(fotos/imagem\ fundo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  justify-content: center; 
+  align-items: center;    
+  display: flex;
+    height: 45rem;
+    position: relative;
+}
+#roberta{
+    background-color:#1A2142;
+    border-radius: 2rem;
+  height: 20rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+    }
+    main div{
+        gap: 10rem;
+       text-align: center;
+      
+    }
+    .email,.senha,.nome , .cpf ,.nascimento {
+        margin: 1rem;
+        border-radius: 1rem;
+
+    }
+     #roberta button{
+        text-decoration: none;
+        border-radius: 1rem;
+        height: 15rem;
+        width: 10rem;
+        font-size: 1rem;
+        cursor: pointer;
+  transition: background-color 0.3s ease;
+
+    }
+    #roberta button a{
+        text-decoration: none;
+        color: #1A2142;
+        font-weight: bold;
+        
+    }
+    #roberta button:hover {
+  background-color: #1e5e63;
+  color: white;
+}   

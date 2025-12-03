@@ -1,0 +1,146 @@
+#nav{
+    background-color: #1A2142;
+   height: 60px;
+   width: 100%;
+   margin: 0px;
+    padding: 0px;
+     gap: 34px;
+    display: flex;
+    align-items: center;
+justify-content: flex-end;}
+
+
+    #nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 12px;
+    
+    }
+    #nav a:hover{
+         transform: scale(1.1) ;
+  transition: all 0.3s ease-in-out;
+  color: #1e5e63;
+    }
+
+.bandeira {
+     background-image: url(fotos/bandeira.jpeg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4px;
+    }
+    .bandeira h1 {
+    font-size: 200px;
+    color: white;
+    font-weight: bold;
+  text-shadow: 
+    0 0 40px rgb(0, 0, 0),
+    0 0 80px rgba(0, 0, 0, 0),
+    0 0 120px rgba(0, 0, 0, 0);
+ justify-content: center;
+}
+.bandeira h2{
+    font-size:30px;
+    color: whitesmoke;
+    text-shadow: 
+    0 0 40px rgb(0, 0, 0),
+    0 0 80px rgb(0, 0, 0),
+    0 0 120px rgb(0, 0, 0);
+    padding: 12px;
+ margin-top: -80px ;
+}
+
+#sessao{
+    display: flex;
+gap: 2rem;
+  padding: 2rem;
+  font-weight: 30rem;
+  justify-content: space-evenly;
+
+    }
+
+
+.ponto-turistico, .Culinaria, .Cultura, .Economia{
+    background-color: #1A2142;
+  width:  fit-content;  
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  padding: 20px;
+}
+.ponto-turistico img, .Culinaria img, .Cultura img, .Economia img {
+    width: 15rem;
+  height: 15rem;
+  justify-content: center;
+  margin: 1rem;
+}
+#sessao button{
+    text-decoration: none;
+    display: block; 
+  width: 120px;
+  color:#1A2142 ;
+  height: 40px;
+  margin: 10px auto;  
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#sessao button a {
+  text-decoration: none; 
+  color: inherit;        
+  font-weight: bold;
+}     
+#sessao button:hover {
+  background-color: #1e5e63;
+  color: white;
+}
+#agricultura{
+    background-color: #1A2142;
+  width:  fit-content;  
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 2rem;
+  color: white;
+}
+#conteudo  h1{ 
+    text-align: center;
+    font-size: 65px;
+
+}
+#conteudo h2, h3 , h4, h5 , h6{
+    font-size: 25px;
+    margin: 20px;
+}
+#fotinho img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.foto img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #titulo{
+    text-align: center;
+  }
+  #conteudo li{
+   width: fit-content;
+    margin: 0 auto; 
+  }
+  #curiosidades li{
+width: fit-content;
+    margin: 0 auto; }
+    #curiosidades{
+      text-align: center;
+    }
+    #conteudo{
+      text-align: center;
+    }
